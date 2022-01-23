@@ -1,0 +1,270 @@
+.logo img{
+    max-width: 100%;
+    width: 150px;
+    margin-right: 86px;
+}
+.jon-header {
+    background: #f5f6fc;margin-bottom: 80px;
+}
+.navbar{
+    padding: 10px 0px;
+}
+.icon{
+    list-style: none;
+    display: block;
+   
+}
+.icon ul{
+   
+}
+.icon ul li{
+    margin-bottom: 10px;
+}
+ span{
+    list-style: none;
+margin-left: 15px;
+margin-top: 11px;
+display: inline-block;
+}
+
+.banner-img{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner{
+    position: relative;
+}
+.banner-title{
+    position:absolute ;
+    left: 50%;
+    top: 20%;
+}
+.banner-title h1{
+    font-size: 55px;
+    background: rgba(0,0,0,0.78);
+    color: #fff;
+    line-height: 75px;
+    padding: 0px 10px 0 10px ;
+}
+
+.fashion-trends{
+    padding: 100px 0;
+}
+
+.fashion-box{
+    margin: 80px 0;
+}
+.title-style{
+    margin: 0 auto 80px;
+    height: 120px ;
+    width: 80%;
+    max-width: 700px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0,0,50,0.50);
+}
+.title-style::after{
+    content: "";
+    height: 100px;
+    width: 200px;
+    top:-10px;
+    left: -10px;
+    background: #f992a6;
+    position: absolute;
+    z-index: -1;
+}
+.title-style::before{
+    content: "";
+    height: 100px;
+    width: 200px;
+    bottom: -10px;
+    right: -10px;
+    background: #f992a6;
+    position: absolute;
+    z-index: -1;
+}
+
+.title-style h1{
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.trending-img{
+    position: relative;
+    margin-bottom:15px ;
+}
+.trending-img img{
+  
+    width: 100%;
+}
+.trending-img{
+    position:relative ;
+}
+.btn-buy{
+    width: 150px;
+    padding: 12px 0;
+    outline: none ;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    top: 91%;
+    transform: translate(-50% ,0);
+    transition: .5s;
+    z-index: 1;
+
+}
+.trending-img:hover .btn-buy{
+background: #f992a6;
+}
+.overlay{
+    height: 0;
+    width:100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.trending-img:hover .overlay{
+    opacity: 0.5;
+    height: 100%;
+}
+.offer{
+    background-image: url(.//img/fashion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row{
+    margin: initial;
+}
+.subscribe{
+    max-width: 500px ;
+    margin-top: 80px;
+    padding: 60px;
+    background: #ffffff8c;
+    margin-bottom: 80px;
+}
+.subscribe a{
+    width: 100px ;
+    display: block;
+    color: white;
+    background: black;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+.offer img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: -100px;
+    margin-top: 150px;
+}
+
+
+.fashion-blog{
+    margin: 150px 0 150px ;
+}
+.fashion-blog h5{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.blog-img{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.fashion-brunds{
+    margin-bottom: 150px;
+}
+
+.brand-logo{
+   
+    height: 200px;
+    width: 200px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+    box-shadow: 0 2px 40px 0 rgba(110,130,208,0.18);
+}
+.brand-logo img{
+    width: 100px;
+    margin: 50px auto;
+}
+.fashion-brunds P{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+
+.footer{
+   margin-top: 150px;
+   background: #f5f6fc;
+}
+
+.payment,.insta-img,.app-downloa{
+    margin: 50px auto;
+} 
+.payment img{
+    width: 300px;
+    cursor: pointer;
+}
+.insta-img img{
+    width: 75px;
+    padding: 5px;
+    cursor: pointer;
+}
+.app-download{
+    width: 200px;
+    
+}
+.footer h5::before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #4f74e8;
+    top: 76px;
+    position: absolute;
+}
+.footer-icon{
+    text-align: right;
+}
+.footer-icon .fab{
+    margin: 0 10px auto;
+    font-size: 20px ; 
+    cursor: pointer;
+
+}
+
+
+
+/* for small device*/
+@media only screen and(max-width:900px;){
+    .banner-img{
+        margin: 40px auto;
+        width: 80%;
+    }
+    .banner-title{
+        
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner-title h1{
+        font-size: 40px;
+        padding: 5px;
+        line-height: 20px;
+    }
+}
